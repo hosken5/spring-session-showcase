@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>hongpf</groupId>
-    <artifactId>springRedisTest</artifactId>
+    <artifactId>spring-session-showcase</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <parent>
