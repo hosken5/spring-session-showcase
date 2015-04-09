@@ -11,7 +11,7 @@ import org.springframework.data.redis.serializer.JdkSerializationRedisSerializer
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 import org.springframework.session.data.redis.config.annotation.web.http.EnableRedisHttpSession;
 
-//@Configuration
+@Configuration
 @EnableRedisHttpSession
 public class RedisSessionConfig {
     @Bean
