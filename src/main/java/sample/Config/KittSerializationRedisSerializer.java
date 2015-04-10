@@ -23,6 +23,7 @@ public class KittSerializationRedisSerializer implements RedisSerializer<Object>
         try {
             return deserializer.convert(bytes);
         } catch (Exception ex) {
+            ex.printStackTrace();
             return null ;
            // throw new SerializationException("Cannot deserialize", ex);
         }

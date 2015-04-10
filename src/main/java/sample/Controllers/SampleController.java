@@ -21,13 +21,13 @@ import javax.servlet.http.HttpSession;
 public class SampleController {
 
     @Autowired
-    private RedisTemplate redisTemplate ;
+    private RedisTemplate sessionRedisTemplate ;
 
 
     @RequestMapping("/redisTest")
     @ResponseBody
     String redisTest() {
-        return redisTemplate.getHashKeySerializer().toString();
+        return sessionRedisTemplate.getHashKeySerializer().toString();
     }
 
 

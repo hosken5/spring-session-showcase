@@ -7,7 +7,7 @@ import java.io.Serializable;
  */
 public class User implements Serializable{
 
-    private static final long serialVersionUID = -1267719235225203414L;
+    private static final long serialVersionUID = -126771923522520341L;
 
     public String getName() {
         return name;
